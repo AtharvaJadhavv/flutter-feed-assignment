@@ -73,7 +73,6 @@ Supabase is already configured and connected.
 ### Rapid Scroll Jank Prevention
 - RepaintBoundary isolates shadow rasterization per card
 - memCacheWidth prevents large image decoding on scroll
-- ListView.builder only builds visible items
 
 ## AI Usage (Honest)
 - Used Claude + Cursor to scaffold Riverpod providers, screen structure, and widget layout
