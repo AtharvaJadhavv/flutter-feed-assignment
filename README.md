@@ -1,4 +1,4 @@
-# Flutter High-Performance Feed App
+# Flutter High-Performance Feed Application
 
 A highly optimized infinite-scrolling social feed built with Flutter and Supabase, submitted as part of the Full Stack Engineering Assignment.
 
