@@ -42,11 +42,6 @@ Supabase is already configured and connected.
 - This isolates the heavy BoxShadow (blurRadius: 24) rasterization to its own layer
 - GPU does not recalculate shadow math during fast scrolling - verified in Flutter DevTools
 
-### RAM Protection (memCacheWidth)
-- CachedNetworkImage uses memCacheWidth: 400 on native platforms
-- This ensures decoded image footprint in RAM matches the UI display size
-- Prevents OOM crashes during fast scrolling through large image feeds
-
 ### 3-Tier Image Pipeline
 - Thumbnail (300px): shown in feed for fast loading and low RAM usage
 - Mobile (1080px): loaded in detail screen via FutureBuilder with AnimatedOpacity fade-in
