@@ -7,7 +7,6 @@ https://github.com/AtharvaJadhavv/flutter-feed-assignment
 
 ## Tech Stack
 - Flutter (Dart)
-- Riverpod 2.5 (State Management)
 - Supabase (Database, Storage, RPC)
 - cached_network_image
 - connectivity_plus
